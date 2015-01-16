@@ -1,6 +1,10 @@
 body {
     font-family: 'Dosis', 'sans-serif';
     color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 .bg {
     position: fixed;
@@ -12,30 +16,44 @@ body {
     right: auto;
     z-index: -1;
 }
-.content {
-    width: 40%;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 13%;
-    text-align: center;
-    display: block;
+div.outer {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
 }
-.name {
+div.middle {
+    padding: 0;
+    vertical-align: middle;
+    display: table-cell;
+    margin: 0;
+}
+div.inner {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+div.name {
     font-weight: 200;
     font-size: 3em;
 }
-.bio {
+div.bio {
     font-weight: 200;
     font-size: 1.4em;
 }
-.line {
-    width: 50%;
-    margin: 5% 25%;
+div.line {
+    margin: 30px auto;
+    width: 80%;
     border-bottom: 1px dotted #DDDDDD;
 }
-.icons {
+div.icons {
     align-self: center;
-    margin-top: 13%;
+    margin-top: 20%;
 
 }
 .button {
