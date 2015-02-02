@@ -51,9 +51,13 @@ div.name {
     font-weight: 200;
     font-size: 3em;
 }
-div.bio {
+div.summary {
     font-weight: 200;
     font-size: 1.4em;
+}
+div.bio {
+    font-size: 1.1em;
+    margin: 30px auto;
 }
 div.line {
     margin: 30px auto;
@@ -62,8 +66,7 @@ div.line {
 }
 div.icons {
     align-self: center;
-    margin-top: 20%;
-
+    margin-top: 15%;
 }
 .button {
     width: 40px;
