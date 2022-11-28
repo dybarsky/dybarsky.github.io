@@ -1,7 +1,7 @@
 body {
-    font-family: 'Dosis', 'sans-serif';
-    background-color: #597ea3;
-    color: #ffffff;
+    font-family: "Source Code Pro", monospace;
+    background-color: #434C5E;
+    color: #D8DEE9;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -24,49 +24,44 @@ div.middle {
     margin: 0;
 }
 div.inner {
-    width: 450px;
+    width: 730px;
     margin: 0 auto;
     text-align: center;
-    padding: 10px;
 }
-div.name {
-    font-weight: 200;
+span.name {
+    text-shadow: 0 0 5px #D8DEE9;
     font-size: 3em;
 }
-div.summary {
-    font-weight: 200;
+span.surname {
+    font-size: 3em;
+}
+span.summary {
     font-size: 1.4em;
+}
+span.location {
+    font-size: 1.2em;
 }
 div.bio {
     font-size: 1.1em;
-    margin: 30px auto;
+    margin: 30px 15px 15px;
+    line-height: 1.4em;
 }
-div.line {
-    margin: 30px auto;
-    width: 75%;
-    border-bottom: 1px dotted #DDDDDD;
-}
-div.icons {
+div.links {
     align-self: center;
-    margin-top: 15%;
-}
-.button {
-    width: 40px;
-    height: 40px;
-    opacity: 0.7;
 }
 a {
     text-decoration: none;
 }
 a:link {
-    color: #ffffff;
+    color: #D8DEE9;
 }
 a:visited {
-    color: #ffffff;
+    color: #D8DEE9;
 }
 a:hover {
-    color: #ffffff;
+    text-shadow: 0 0 5px #D8DEE9;
+    color: #D8DEE9;
 }
 a:active {
-    color: #ffffff;
+    color: #D8DEE9;
 }

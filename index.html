@@ -1,20 +1,13 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <link href="http://fonts.googleapis.com/css?family=Dosis:300,400" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Source+Code+Pro:subset=latin,latin-ext' rel='stylesheet' type='text/css'/>
     <link rel="stylesheet" href="stylesheet/styles.css"/>
     <link rel="icon" href="art/icon.png"/>
 
     <title>Maksym Dybarskyi</title>
 
     <script language="javascript">
-        function hoverIn(element) {
-            element.style.opacity = 1;
-        }
-
-        function hoverOut(element) {
-            element.style.opacity = 0.7;
-        }
         function sendEvent(element) {
             ga('send', 'event', 'open', element.id);
         }
@@ -27,60 +20,64 @@
 
       ga('create', 'UA-58648251-1', 'auto');
       ga('send', 'pageview');
-
     </script>
 </head>
-
 <body>
 
     <div class="outer">
     <div class="middle">
     <div class="inner">
 
-        <div class="name">
-            <span style="font-weight: bold;">Maksym</span><span>Dybarskyi</span>
+        <div>
+            <span class="name">Maksym</span><span class="surname">Dybarskyi</span>
         </div>
 
-        <div class="line"></div>
+        <br/>
+        <div>--------------------------------------------</div>
+        <br/>
 
-        <div class="summary">
-            <span>Android developer</span>
+        <div>
+            <span class="summary">Android developer</span>
             <br/>
-            <span>Berlin, Germany</span>
+            <span class="location">Berlin, Germany</span>
         </div>
 
         <div class="bio">
-            <span>I am a big fan of cutting-edge technologies. Engaged in android apps development, focusing on architecture and usability.</span>
-            <br/>
-            <span>Also pretty interested in Internet-of-things and robotics.</span>
-            <br/>
-            <span>I can't imagine my life without traveling, yoga and sport activity.</span>
+            I am a big fan of cutting-edge technologies. Engaged in android apps development, focusing on architecture and quality.
+            Also very interested in electronics and robotics as well as 3D printing. Amateur chess player. I love traveling, inline skating and yoga.
         </div>
 
-        <div class="icons">
+        <br/>
+        <br/>
+
+        <div class="links">
             <a href="http://github.com/dybarsky"
                id="github" onclick="sendEvent(this)">
-                <img class="button" src="art/icons/github.png" onMouseOver="hoverIn(this)" onMouseOut="hoverOut(this)"/>
-            </a>
+                [GitHub]
+            </a>&nbsp;
             <a href="https://play.google.com/store/apps/developer?id=Maksym+Dybarskyi"
                id="play" onclick="sendEvent(this)">
-                <img class="button" src="art/icons/play.png" onMouseOver="hoverIn(this)" onMouseOut="hoverOut(this)"/>
-            </a>
-            <a href="https://medium.com/@dybarsky"
+                [PlayStore]
+            </a>&nbsp;
+            <!--<a href="https://medium.com/@dybarsky"
                id="medium" onclick="sendEvent(this)">
-                <img class="button" src="art/icons/medium.png" onMouseOver="hoverIn(this)" onMouseOut="hoverOut(this)"/>
-            </a>
+                #Medium
+            </a>-->
             <a href="https://www.linkedin.com/in/maksym-dybarskyi-795802b"
                id="linkedin" onclick="sendEvent(this)">
-                <img class="button" src="art/icons/linkedin.png" onMouseOver="hoverIn(this)" onMouseOut="hoverOut(this)"/>
-            </a>
+                [LinkedIn]
+            </a>&nbsp;
             <a href="https://www.twitter.com/dybarsky"
                id="twitter" onclick="sendEvent(this)">
-                <img class="button" src="art/icons/twitter.png" onMouseOver="hoverIn(this)" onMouseOut="hoverOut(this)"/>
-            </a>
+                [Twitter]
+            </a>&nbsp;
             <a href="http://instagram.com/dybarsky"
                id="instagram" onclick="sendEvent(this)">
-                <img class="button" src="art/icons/instagram.png" onMouseOver="hoverIn(this)" onMouseOut="hoverOut(this)"/>
+                [Instagram]
+            </a>&nbsp;
+            <a href="https://www.chess.com/member/dybarsky"
+               id="chesscom" onclick="sendEvent(this)">
+                [ChessCom]
             </a>
         </div>
 
